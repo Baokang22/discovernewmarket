@@ -1,0 +1,16 @@
+[30-Aug-2017 01:32:08 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/discovernewmar/public_html/wp-content/themes/discover-newmarket/index.php on line 1
+[16-Feb-2018 08:06:17 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/discovernewmar/public_html/wp-content/themes/discover-newmarket/page.php on line 1
+[16-Feb-2018 08:06:17 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/discovernewmar/public_html/wp-content/themes/discover-newmarket/page.php on line 1
+[16-Feb-2018 08:06:18 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/discovernewmar/public_html/wp-content/themes/discover-newmarket/page.php on line 1
+[05-Mar-2018 08:41:19 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/discovernewmar/public_html/wp-content/themes/discover-newmarket/404.php on line 1
+[05-Mar-2018 08:41:19 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/discovernewmar/public_html/wp-content/themes/discover-newmarket/404.php on line 1
+[24-Mar-2018 12:01:06 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/discovernewmar/public_html/wp-content/themes/discover-newmarket/archive.php on line 1
+[24-Mar-2018 12:01:06 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/discovernewmar/public_html/wp-content/themes/discover-newmarket/archive.php on line 1
+[25-Mar-2018 13:01:28 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/discovernewmar/public_html/wp-content/themes/discover-newmarket/header.php on line 1
+[25-Mar-2018 13:01:28 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/discovernewmar/public_html/wp-content/themes/discover-newmarket/header.php on line 1
+[26-Mar-2018 06:23:42 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/discovernewmar/public_html/wp-content/themes/discover-newmarket/index.php on line 1
+[26-Mar-2018 06:23:42 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/discovernewmar/public_html/wp-content/themes/discover-newmarket/index.php on line 1
+[07-Apr-2018 06:59:07 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/discovernewmar/public_html/wp-content/themes/discover-newmarket/404.php on line 1
+[07-Apr-2018 06:59:07 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/discovernewmar/public_html/wp-content/themes/discover-newmarket/404.php on line 1
+[24-Jun-2018 04:38:10 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/discovernewmar/public_html/wp-content/themes/discover-newmarket/index.php on line 1
+[24-Jun-2018 11:38:08 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/discovernewmar/public_html/wp-content/themes/discover-newmarket/index.php on line 1

@@ -1,0 +1,62 @@
+@import "reset";
+@import "functions";
+@import "color";
+@import "base";
+@import "typography";
+
+body {
+    background-color: rgba(8, 70, 142, 0.9);
+}
+
+.login h1 a {
+    background-image: url(../images/png/sign-in-icon.png);
+    width: 320px;
+    height: 100px;
+    background-size: contain;
+}
+
+#nav a {
+    color: white !important;
+}
+
+#backtoblog a {
+    color: white !important;
+}
+
+.login label {
+    color: white;
+    font-size: 14px;
+}
+
+.login form {
+    background-color: $color-darkblue;
+}
+
+.login .message {
+    border-left: 4px solid $color-pink;
+    padding: 12px;
+    margin-left: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.login form .input, .login form input[type=checkbox], .login input[type=text] {
+    background: white;
+}
+
+.reg_passmail {
+    color: white;
+}
+
+#login form p {
+    color: white;
+}
+
+#wp-submit {
+    background-color: $color-pink;
+    border: none;
+    text-shadow: none;
+    color: white;
+    box-shadow: none;
+}

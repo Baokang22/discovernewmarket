@@ -1,0 +1,32 @@
+<?php /* 
+<!-- Sign Up -->
+<div class="sign-up-custom">
+	<div class="close-form">
+		<img class="close-it" src="<?php echo get_template_directory_uri(); ?>/images/png/white-close.png"  alt="Close"/>
+	</div>
+	<div class="sign-up-inner">
+		<div class="lets-get-signed-up">
+			<p>Lets get</p>
+			<h2>signed up</h2>
+			<div class="triangle">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/png/triangle.png"  alt="Triangle"/>
+			</div>
+		</div>
+		<p class="small">Sign up to take advantage of all the offers across the website.</p>
+		<div class="form-wrap">
+			<form method="POST">
+				<input type="text" name="fullname" placeholder="Full name" class="box-shadow-inner" value="<?php echo $userfirstname; ?>"><br>
+				<input type="text" name="email" class="box-shadow-inner" placeholder="Email address" value="<?php echo $userfirstname; ?>"><br>
+				<input type="text" name="addresslineone" placeholder="Address Line 1" class="box-shadow-inner" value="<?php echo $userfirstname; ?>"><br>
+				<input type="text" name="addresslinetwo" placeholder="Address Line 2" class="box-shadow-inner" value="<?php echo $userfirstname; ?>"><br>
+				<input type="text" name="addresslinethree" placeholder="Address Line 3" class="box-shadow-inner" value="<?php echo $userfirstname; ?>"><br>
+				<input type="text" name="postcode" class="box-shadow-inner" placeholder="Postcode" value="<?php echo $userfirstname; ?>"><br>
+				<input type="text" name="telephone" class="box-shadow-inner"  placeholder="Telephone" value="<?php echo $userfirstname; ?>"><br>
+			</form>
+			<p>By signing up, you are happy to be contacted by email from time-to-time by Love Newmarket</p>
+			<a href="" class="pink-btn pull-right">sign up now</a>
+		</div>
+	</div>
+</div>
+<!-- Sign Up -->
+*/ ?>

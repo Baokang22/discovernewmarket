@@ -1,0 +1,294 @@
+/* -------------------------------------------------- */
+// Slant styles (CLIP-PATH)
+/* -------------------------------------------------- */
+.clip-grey {
+    width: 100%;
+    margin-bottom: -1rem;
+    position: relative;
+    z-index: 2;
+    margin-top: 2rem;
+}
+
+.clip-grey-bottom {
+    width: 100%;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.clip-white-bottom {
+    width: 100%;
+    margin-bottom: -1rem;
+    position: relative;
+    z-index: 1;
+}
+
+.clip-white-bottom-alt {
+    width: 100%;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+.clip-white-bottom-alt-two {
+    width: 100%;
+    margin-bottom: 5.2rem;
+    position: relative;
+    z-index: 1;
+
+    @media (min-width: 480px) {
+        margin-bottom: 4.5rem;
+    }
+
+    @media (min-width: 600px) {
+        margin-bottom: 4rem;
+    }
+
+    @media (min-width: 768px) {
+        margin-bottom: 3rem;
+    }
+
+    @media (min-width: 992px) {
+        margin-bottom: 2rem;
+    }
+
+    @media (min-width: 1200px) {
+        margin-bottom: 1rem;
+    }
+
+    @media (min-width: 1500px) {
+        margin-bottom: 0;
+    }
+}
+
+.clip-grey-map {
+    width: 100%;
+    margin-bottom: -1rem;
+    position: relative;
+    z-index: 2;
+}
+
+.clip-grey-map-bottom {
+    width: 100%;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 2;
+
+    @media (min-width: 768px) {
+        margin-bottom: 0rem;
+    }
+
+    @media (min-width: 992px) {
+        margin-bottom: -1rem;
+    }
+}
+
+.clip-path-main-car {
+    -webkit-clip-path: polygon(0% 0%, 100% 7rem, 100% 92%, 0 100%);
+    -moz-clip-path: polygon(0% 0%, 100% 7rem, 100% 92%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 7rem, 100% 92%, 0 100%);
+
+    @media (min-width: 768px) {
+        -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 92%, 0 100%);
+        -moz-clip-path: polygon(0% 0%, 100% 10%, 100% 92%, 0 100%);
+        clip-path: polygon(0% 0%, 100% 10%, 100% 92%, 0 100%);
+    }
+}
+
+.clip-path-things {
+    -webkit-clip-path: polygon(0% 0%, 100% 7rem, 100% 97%, 0 100%);
+    -moz-clip-path: polygon(0% 0%, 100% 7rem, 100% 97%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 7rem, 100% 97%, 0 100%);
+}
+
+.clip-path-things-extended {
+    -webkit-clip-path: polygon(0% 0%, 100% 7rem, 100% 99.5%, 0 100%);
+    -moz-clip-path: polygon(0% 0%, 100% 7rem, 100% 99.5%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 7rem, 100% 99.5%, 0 100%);
+}
+
+.clip-path-latest-news {
+    -webkit-clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 0 100%);
+    -moz-clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 0 100%);
+}
+
+.clip-path-news {
+    // @media (min-width: 768px) {
+    //     -webkit-clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 0 100%);
+    //     -moz-clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 0 100%);
+    //     clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 0 100%);
+    // }
+
+    width: 100%;
+    margin-bottom: -1rem;
+    position: relative;
+    z-index: 3;
+    margin-top: 0;
+
+    @media (min-width: 1200px) {
+        margin-top: -1rem;
+    }
+
+    @media (min-width: 1500px) {
+        margin-top: -2rem;
+    }
+}
+
+.clip-path-news-bottom {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.clip-path-search {
+    -webkit-clip-path: polygon(0% 0%, 100% 7rem, 100% 100%, 0 100%);
+    -moz-clip-path: polygon(0% 0%, 100% 7rem, 100% 100%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 7rem, 100% 100%, 0 100%);
+}
+
+.clip-path-footer {
+    // -webkit-clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0 100%);
+    // -moz-clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0 100%);
+    // clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0 100%);
+    // margin-top: -7rem;
+
+    // @media (min-width: 992px) {
+    //     -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0 100%);
+    //     -moz-clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0 100%);
+    //     clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0 100%);
+    //     margin-top: -4%;
+    // }
+    width: 100%;
+    margin-bottom: -1rem;
+    position: relative;
+}
+
+.clip-path-grid-stay, .clip-path-grid-shop, .clip-path-grid-eat, .clip-path-grid-gallery {
+    -webkit-clip-path: polygon(0% 0%, 100% 7rem, 100% 96%, 0 100%);
+    -moz-clip-path: polygon(0% 0%, 100% 7rem, 100% 96%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 7rem, 100% 96%, 0 100%);
+}
+
+.clip-path-grid-business {
+    -webkit-clip-path: polygon(0% 0%, 100% 7rem, 100% 96%, 0 100%);
+    -moz-clip-path: polygon(0% 0%, 100% 7rem, 100% 96%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 7rem, 100% 96%, 0 100%);
+}
+
+.clip-path-offers {
+    -webkit-clip-path: polygon(0% 0%, 100% 12%, 100% 88%, 0 100%);
+    -moz-clip-path: polygon(0% 0%, 100% 12%, 100% 88%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 12%, 100% 88%, 0 100%);
+}
+
+.clip-path-map {
+    -webkit-clip-path: polygon(0% 0%, 100% 20%, 100% 80%, 0 100%);
+    -moz-clip-path: polygon(0% 0%, 100% 20%, 100% 80%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 20%, 100% 80%, 0 100%);
+}
+
+.clip-path-secrets {
+    -webkit-clip-path: polygon(0% 0%, 100% 6%, 100% 104%, 0 100%);
+    -moz-clip-path: polygon(0% 0%, 100% 6%, 100% 104%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 6%, 100% 104%, 0 100%);
+}
+
+.clip-path-events {
+    -webkit-clip-path: polygon(0% 0%, 100% 7rem, 100% 100%, 0 100%);
+    -moz-clip-path: polygon(0% 0%, 100% 7rem, 100% 100%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 7rem, 100% 100%, 0 100%);
+    margin-bottom: -5rem;
+}
+
+.clip-path-co-what-do {
+    -webkit-clip-path: polygon(0% 0%, 100% 4%, 100% 90%, 0 100%);
+    -moz-clip-path: polygon(0% 0%, 100% 4%, 100% 90%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 4%, 100% 90%, 0 100%);
+
+    @media (min-width: 992px) {
+        -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0 100%);
+        -moz-clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0 100%);
+        clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0 100%);
+    }
+}
+
+.clip-path-co-what-do-opps {
+    -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0 100%);
+    -moz-clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0 100%);
+}
+
+.clip-path-co-bid-news {
+    -webkit-clip-path: polygon(0% 0%, 100% 6rem, 100% 100%, 0 100%);
+    -moz-clip-path: polygon(0% 0%, 100% 6rem, 100% 100%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 6rem, 100% 100%, 0 100%);
+    margin-bottom: -6rem;
+}
+
+/* member slants */
+
+/* -------------------------------------------------- */
+// Slant styles (SVG)
+/* -------------------------------------------------- */
+
+.slant-lower {
+    position: absolute;
+    bottom: 0;
+    height: 6vh;
+    width: 100%;
+    margin-bottom: calc(-6vh + 1px);
+    z-index: 10;
+    overflow: hidden;
+}
+
+.slant-upper {
+    position: absolute;
+    height: 6vh;
+    width: 100%;
+    margin-top: calc(-6vh + 1px);
+    z-index: 11;
+}
+
+.slant-upper-footer {
+    position: absolute;
+    height: 5vh;
+    width: 100%;
+    margin-top: calc(-6vh + 1px);
+    z-index: 11;
+
+    @media (min-width: 768px) {
+        height: 6vh;
+    }
+
+    @media (min-width: 992px) {
+        height: 7vh;
+    }
+}
+
+.slant-upper-two {
+    position: absolute;
+    height: 6vh;
+    width: 100%;
+    margin-top: calc(-6vh + 1px);
+}
+
+.pink-box-slant {
+    position: absolute;
+    height: 6vh;
+    width: calc(100% - 3rem);
+    margin-top: calc(-6vh + 1px);
+    z-index: 11;
+}
+
+.slant-upper-small {
+    position: absolute;
+    height: 4vh;
+    width: 557px;
+    bottom: 119%;
+    left: 15px;
+    z-index: 11;
+    transform: scale(-1, 1);
+
+    &.pink {
+        width: 336px;
+    }
+}

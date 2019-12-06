@@ -1,0 +1,479 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/*$color-superlightblue: #00afec;*/
+/*$color-lightblue: #0181c3;*/
+/*$color-darkblue: #08468e;*/
+/*$color-softerdarkblue: #0054a2;*/
+img.flush {
+  width: 100%;
+  height: auto; }
+
+.kill-padding {
+  padding: 0; }
+
+.kill-padding-top {
+  padding-top: 0; }
+
+.kill-padding-bottom {
+  padding-bottom: 0; }
+
+.kill-margin {
+  margin: 0; }
+
+.kill-margin-top {
+  margin-top: 0; }
+
+.kill-margin-bottom {
+  margin-bottom: 0; }
+
+.pad {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.padding-top {
+  padding-top: 1rem; }
+
+.padding-bottom {
+  padding-bottom: 1rem; }
+
+.padding-1_5x {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
+
+.padding-top-1_5x {
+  padding-top: 1.5rem; }
+
+.padding-bottom-1_5x {
+  padding-bottom: 1.5rem; }
+
+.padding-2x {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+.padding-top-2x {
+  padding-top: 2rem; }
+
+.padding-bottom-2x {
+  padding-bottom: 2rem; }
+
+.padding-3x {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+.padding-top-3x {
+  padding-top: 3rem; }
+
+.padding-bottom-3x {
+  padding-bottom: 3rem; }
+
+.padding-4x {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+
+.padding-top-4x {
+  padding-top: 4rem; }
+
+.padding-bottom-4x {
+  padding-bottom: 4rem; }
+
+.padding-5x {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+
+.padding-top-5x {
+  padding-top: 5rem; }
+
+.padding-bottom-5x {
+  padding-bottom: 5rem; }
+
+.padding-6x {
+  padding-top: 6rem;
+  padding-bottom: 6rem; }
+
+.padding-top-6x {
+  padding-top: 6rem; }
+
+.padding-bottom-6x {
+  padding-bottom: 6rem; }
+
+.padding-7x {
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+
+.padding-top-7x {
+  padding-top: 7rem; }
+
+.padding-bottom-7x {
+  padding-bottom: 7rem; }
+
+.padding-8x {
+  padding-top: 8rem;
+  padding-bottom: 8rem; }
+
+.padding-top-8x {
+  padding-top: 8rem; }
+
+.padding-bottom-8x {
+  padding-bottom: 8rem; }
+
+.padding-9x {
+  padding-top: 9rem;
+  padding-bottom: 9rem; }
+
+.padding-top-9x {
+  padding-top: 9rem; }
+
+.padding-bottom-9x {
+  padding-bottom: 9rem; }
+
+.padding-10x {
+  padding-top: 10rem;
+  padding-bottom: 10rem; }
+
+.padding-top-10x {
+  padding-top: 10rem; }
+
+.padding-bottom-10x {
+  padding-bottom: 10rem; }
+
+.margin {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.margin-left {
+  margin-left: 1rem; }
+
+.margin-top {
+  margin-top: 1rem; }
+
+.margin-bottom {
+  margin-bottom: 1rem; }
+
+.margin-1_5x {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+
+.margin-top-1_5x {
+  margin-top: 1.5rem; }
+
+.margin-bottom-1_5x {
+  margin-bottom: 1.5rem; }
+
+.margin-2x {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.margin-top-2x {
+  margin-top: 2rem; }
+
+.margin-bottom-2x {
+  margin-bottom: 2rem; }
+
+.margin-3x {
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
+.margin-top-3x {
+  margin-top: 3rem; }
+
+.margin-bottom-3x {
+  margin-bottom: 3rem; }
+
+.margin-4x {
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+
+.margin-top-4x {
+  margin-top: 4rem; }
+
+.margin-bottom-4x {
+  margin-bottom: 4rem; }
+
+.margin-6x {
+  margin-top: 6rem;
+  margin-bottom: 6rem; }
+
+.margin-top-6x {
+  margin-top: 6rem; }
+
+.margin-bottom-6x {
+  margin-bottom: 6rem; }
+
+.margin-7x {
+  margin-top: 7rem;
+  margin-bottom: 7rem; }
+
+.margin-top-7x {
+  margin-top: 7rem; }
+
+.margin-bottom-7x {
+  margin-bottom: 7rem; }
+
+.margin-8x {
+  margin-top: 8rem;
+  margin-bottom: 8rem; }
+
+.margin-top-8x {
+  margin-top: 8rem; }
+
+.margin-bottom-8x {
+  margin-bottom: 8rem; }
+
+.margin-9x {
+  margin-top: 9rem;
+  margin-bottom: 9rem; }
+
+.margin-top-9x {
+  margin-top: 9rem; }
+
+.margin-bottom-9x {
+  margin-bottom: 9rem; }
+
+.margin-10x {
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.margin-top-10x {
+  margin-top: 10rem; }
+
+.margin-bottom-10x {
+  margin-bottom: 10rem; }
+
+.color-inherit {
+  color: inherit; }
+
+.fa + .fa {
+  margin-left: 1rem; }
+
+* {
+  -webkit-font-smoothing: antialiased; }
+
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+.wf-loading {
+  opacity: 0;
+  -webkit-transition: opacity 125ms;
+  transition: opacity 125ms; }
+
+.wf-active {
+  opacity: 1;
+  -webkit-transition: opacity 125ms;
+  transition: opacity 125ms; }
+
+.wf-inactive {
+  opacity: 1;
+  -webkit-transition: opacity 125ms;
+  transition: opacity 125ms; }
+
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+body {
+  font-family: 'aleoregular', sans-serif; }
+
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+@font-face {
+  font-family: 'aleoregular';
+  src: url("../fonts/Aleo-Regular-webfont.eot");
+  src: url("../fonts/Aleo-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Aleo-Regular-webfont.woff") format("woff"), url("../fonts/Aleo-Regular-webfont.ttf") format("truetype"), url("../fonts/Aleo-Regular-webfont.svg#aleoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aleolight';
+  src: url("../fonts/Aleo-Light-webfont.eot");
+  src: url("../fonts/Aleo-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Aleo-Light-webfont.woff") format("woff"), url("../fonts/Aleo-Light-webfont.ttf") format("truetype"), url("../fonts/Aleo-Light-webfont.svg#aleolight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aleobold';
+  src: url("../fonts/Aleo-Bold-webfont.eot");
+  src: url("../fonts/Aleo-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Aleo-Bold-webfont.woff") format("woff"), url("../fonts/Aleo-Bold-webfont.ttf") format("truetype"), url("../fonts/Aleo-Bold-webfont.svg#aleobold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+a {
+  color: inherit;
+  text-decoration: none; }
+  a:hover, a:focus {
+    color: inherit; }
+
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+html {
+  font-size: 10px;
+  line-height: 1.75; }
+
+body {
+  font-size: 1.8rem;
+  line-height: inherit; }
+
+/* -------------------------------------------------- */
+.page-title {
+  font-size: 6rem;
+  line-height: 1; }
+
+h1 {
+  font-size: 3rem; }
+
+h2 {
+  font-size: 2.5rem; }
+
+h3 {
+  font-size: 2rem; }
+
+h4 {
+  font-size: 1.5rem; }
+
+h5 {
+  font-size: 1.5rem; }
+
+h6 {
+  font-size: 1.5rem; }
+
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+body {
+  font-weight: 300; }
+
+.page-title {
+  font-weight: 900; }
+
+h1 {
+  font-weight: 500; }
+
+h2 {
+  font-weight: 500; }
+
+h3 {
+  font-weight: 500; }
+
+h4 {
+  font-weight: 500; }
+
+h5 {
+  font-weight: 500; }
+
+h6 {
+  font-weight: 500; }
+
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+.page-title {
+  margin-bottom: 1em; }
+
+ul, ol {
+  margin-bottom: 2em; }
+
+p + h1, p + h2, p + h3, p + h4, p + h5, p + h6 {
+  margin-top: 3rem; }
+
+p + p {
+  margin-top: 1em; }
+
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+body {
+  background-color: rgba(8, 70, 142, 0.9); }
+
+.login h1 a {
+  background-image: url(../images/png/sign-in-icon.png);
+  width: 320px;
+  height: 100px;
+  background-size: contain; }
+
+#nav a {
+  color: white !important; }
+
+#backtoblog a {
+  color: white !important; }
+
+.login label {
+  color: white;
+  font-size: 14px; }
+
+.login form {
+  background-color: #6FA286; }
+
+.login .message {
+  border-left: 4px solid #b6e455;
+  padding: 12px;
+  margin-left: 0;
+  background-color: #fff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1); }
+
+.login form .input, .login form input[type=checkbox], .login input[type=text] {
+  background: white; }
+
+.reg_passmail {
+  color: white; }
+
+#login form p {
+  color: white; }
+
+#wp-submit {
+  background-color: #b6e455;
+  border: none;
+  text-shadow: none;
+  color: white;
+  box-shadow: none; }

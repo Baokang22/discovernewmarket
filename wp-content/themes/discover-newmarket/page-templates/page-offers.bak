@@ -1,0 +1,105 @@
+<?php /*Template Name: Offers */ get_header(); ?>
+<!-- Offers Filters -->
+<section class="offers-filters">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="filter-wrap">
+					<div class="filter-options">
+						<p>Refine your offers by...</p>
+						<?php $terms = get_terms( 'category' );  ?>
+						<?php if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) :  ?>
+							<div class="filter-cat">
+								<?php foreach ( $terms as $term ) : ?>
+									<img src="<?php echo get_template_directory_uri(); ?>/images/png/map-pin.png" class="img-responsive" alt="Pin" />
+									<a href=""  data-filter="<?php echo $term->slug; ?>">
+										<?php echo $term->name;  ?>
+									</a>
+									<sup>[<?php echo $term->count; ?>]</sup>
+								<?php endforeach; ?>
+							</div>
+						<?php endif; ?>
+					
+					</div>
+					<div class="buttons">
+						<a data-filter="*" href="#" class="pink-btn">view all</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Offers Filters -->
+<!-- Offers -->
+<section class="offers">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="offer-grid">
+					<?php
+					$args = array( 
+						'posts_per_page' => -1,
+						'post_type' => 'special_offers',
+						'orderby'   => 'menu_order',
+						'order'    => 'DESC');
+					$myposts = get_posts( $args );
+					foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
+					<?php $category_offers = wp_get_post_terms($post->ID, 'category', array("fields" => "all")); ?>
+					<div class="offer-item <?php foreach($category_offers as $category) { echo $category->slug . ' '; }; ?>" data-equal="true">
+						<div class="icon">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/png/to-eat.png" class="img-responsive" alt="Eat" />
+						</div>
+						<div class="image">
+							<?php if ( has_post_thumbnail() ) : ?>
+								<a href="<?php the_permalink(); ?>">
+									<?php the_post_thumbnail( 'full', array( 'class' => 'img-responsive' ) ); ?>
+								</a>
+							<?php endif; ?>
+						</div>
+						<div class="content-box" data-equal="true">
+							<p class="white offers">Offers</p>
+							<a href="#" class="title">
+								<?php the_title(); ?>
+							</a>
+							<p class="excerpt">
+								<?php the_excerpt(); ?>
+							</p>
+							
+						</div>
+					</div>
+				<?php endforeach;
+				wp_reset_postdata();?>
+
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="load-more">
+				<img class="load-more-img" src="<?php echo get_template_directory_uri(); ?>/images/png/load-more.png"  alt="Load More"/>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<?php // get_template_part( 'inc/grids/offers'); ?>
+<!-- Offers -->
+<script>
+	jQuery(document).ready(function($) {
+		$grid = $('.offer-grid').isotope({
+			itemSelector: '.offer-item',
+			layoutMode: 'packery',
+			packery: {
+				gutter: 20
+			}
+		});
+		$('.filter-cat').on('click', 'a', function() {
+			event.preventDefault();
+			var filterValue = $(this).attr('data-filter');
+			$grid.isotope({
+				filter: filterValue
+			});
+		});
+	});
+</script>
+<?php get_footer(); ?>

@@ -1,0 +1,65 @@
+.tabees {
+    $max-tab-count: 5;
+    $tab-wrap-border-radius: 6px;
+    .tab-wrap {
+
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        list-style: none;
+        background-color: #fff;
+        margin: 40px 0;
+    }
+    .tab {
+        display: none;
+        @for $i from 1 through $max-tab-count {
+            &:checked:nth-of-type(#{$i}) ~ .tab__content:nth-of-type(#{$i}) {
+                opacity: 1;
+                transition: 0.5s opacity ease-in, 0.8s transform ease;
+                position: relative;
+                top: 0;
+                z-index: 100;
+                transform: translateY(0px);
+            }
+        }
+        &:checked + label {
+            background-color: $color-pink;
+            color: $color-lightblue;
+
+            cursor: default;
+            &:hover {
+                background-color: #fff;
+            }
+        }
+        + label {
+            cursor: pointer;
+            display: block;
+            text-decoration: none;
+            color: #333;
+            flex-grow: 3;
+            text-align: center;
+            background-color: $color-form-blue;
+            color: white;
+            user-select: none;
+            text-align: center;
+            transition: 0.3s background-color ease, 0.3s box-shadow ease;
+            height: 50px;
+            box-sizing: border-box;
+            padding: 10px;
+            &:hover {
+                background-color: $color-pink;
+            }
+        }
+        &__content {
+            padding: 25px 25px;
+            background-color: transparent;
+            position: absolute;
+            width: 100%;
+            z-index: -1;
+            opacity: 0;
+            left: 0;
+            transform: translateY(-3px);
+        }
+    }
+}

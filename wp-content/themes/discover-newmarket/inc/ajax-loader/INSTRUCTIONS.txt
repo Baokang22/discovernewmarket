@@ -1,0 +1,25 @@
+Here is instruction for adding the load more feature to other pages.
+
+1. Start by duplicating one of the folders and re-naming them as is appropriate in /inc/ajax-loader
+
+2. Inside the duplicated folder, include ajax-post.php in your functions folder as such;
+
+require_once (TEMPLATEPATH . '/inc/ajax-loader/{rename}-loader/ajax-post.php');
+
+3. Inside the duplicated folder, open ajax-post.php;
+
+	i.   Rename the function to avoid conflicts.
+	ii.  Rename add_action(s) to match your function name.
+	iii. Edit the while loop inside the function to match your requirements.
+
+4. Inside your duplicated folder, open ajax-action.php
+
+	i.  Change jQuery Ajax action to match your function name.
+
+5. Open your template file;
+
+	i.   Add id="content" to your loop wrapper.
+	ii.  Change loop limit to 4.
+	iii. Include ajax-action.php in your template file footer
+
+And your done.

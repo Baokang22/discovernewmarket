@@ -1,0 +1,49 @@
+.pink-btn {
+    color: white;
+    background-color: $color-pink;
+    display: inline-block;
+    padding: 0.75rem 1rem;
+
+    @media (min-width: 992px) {
+        padding: 0.75rem 3rem;
+    }
+
+    @media (min-width: 1200px) {
+        padding: 0.75rem 5rem;
+    }
+
+    &:hover {
+        text-decoration: none;
+        cursor: pointer;
+        color: $color-lightblue;
+        transition-duration: 1s;
+    }
+}
+
+.blue-btn {
+    color: white;
+    background-color: $color-darkblue;
+    display: inline-block;
+    padding: 0.75rem 5rem;
+
+    &:hover {
+        text-decoration: none;
+        cursor: pointer;
+        color: $color-pink;
+        transition-duration: 1s;
+    }
+}
+
+.lightblue-btn {
+    color: white;
+    background-color: $color-lightblue;
+    display: inline-block;
+    padding: 0.75rem 5rem;
+
+    &:hover {
+        text-decoration: none;
+        cursor: pointer;
+        color: $color-pink;
+        transition-duration: 1s;
+    }
+}

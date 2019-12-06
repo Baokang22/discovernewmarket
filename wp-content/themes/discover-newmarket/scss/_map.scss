@@ -1,0 +1,23 @@
+.acf-map {
+    height: 80vh;
+    margin: -8rem 0 0 0;
+
+    .location-info {
+        h4 {}
+
+        .title {
+            color: white;
+        }
+
+        .offer-count {
+            p {
+                color: $color-lightblue;
+            }
+        }
+
+        a {
+            color: $color-lightblue;
+            font-size: 1.4rem;
+        }
+    }
+}

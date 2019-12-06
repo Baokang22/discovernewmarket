@@ -1,0 +1,411 @@
+/* Write your Public SASS desktop here! */
+.page-template-page-templatespage-content-php section.content-generic {
+  background-color: white;
+}
+.hp-vid {
+  width: 100%;
+  height: auto;
+}
+.container img {
+  max-width: 100%;
+  height: auto;
+}
+section.header .navigation .menu li a {
+  color: #29385a;
+  font-weight: 400;
+  font-size: calc(12px + (19 - 12) * ((100vw - 300px) / (2000 - 300)));
+}
+.mobile-nav-wrap {
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+section.header .weather-wrapper {
+  top: 0 !important;
+  bottom: 0;
+  max-height: 125px;
+}
+@media (max-width: 1200px) {
+  section.header .weather-wrapper {
+    top: -37px !important;
+  }
+}
+.socinav {
+  background-color: #29385a;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 15px 20px 9px;
+}
+.socinav a.soci-links i {
+  color: white;
+  font-size: 20px;
+  margin: 8px 0;
+}
+.socinav a.soci-links i:hover {
+  color: #b6e555;
+}
+.newsletter-nav {
+  position: fixed;
+  z-index: 9999;
+  top: calc(50% + 137px);
+  background-color: #b3e462;
+  transform: translateY(-50%);
+  padding: 12px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newsletter-nav:hover h5 {
+  left: 50px;
+  opacity: 1;
+}
+.newsletter-nav a i {
+  position: relative;
+  color: #29385a;
+  font-size: 20px;
+  margin: 0px;
+  z-index: 5;
+}
+.newsletter-nav a h5 {
+  color: #29385a;
+  position: absolute;
+  width: 170px;
+  text-align: center;
+  background-color: #b3e462;
+  padding: 15px 15px 14px 15px;
+  left: -200px;
+  top: 0px;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+#customcontrols {
+  font-size: 0;
+  position: relative;
+}
+#customcontrols figcaption {
+  background: transparent;
+  border: 10px solid white;
+  border-radius: 100%;
+  display: none;
+  padding: 0;
+  color: #fff;
+  top: 50%;
+  text-align: center;
+  margin-bottom: 0;
+  position: absolute;
+  z-index: 999;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 100px;
+  height: 100px;
+  transition: all 0.3s ease;
+}
+#customcontrols figcaption a {
+  text-decoration: none;
+  font-size: 60px;
+  margin-right: -10px;
+  color: #fff;
+  border-bottom: none;
+  line-height: 87px;
+  display: block;
+}
+#customcontrols a:hover {
+  color: #293859;
+}
+#customcontrols a:visited {
+  color: #770;
+}
+#customcontrols figcaption.playing {
+  background: #293859 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  bottom: 0 !important;
+  top: inherit !important;
+  transform: translateY(0%) translateX(-50%) !important;
+  left: 50%;
+  width: 80px !important;
+  height: 80px !important;
+  padding: 0px !important;
+}
+#customcontrols figcaption.playing a {
+  font-size: 40px;
+  margin: 0 0 0 0;
+  line-height: 73px;
+  /*#customcontrols  {
+    background: transparent url(https://discovernewmarket.co.uk/wp-content/themes/discover-newmarket/videos/discover-newmarket.jpg) no-repeat 0 0;
+   -webkit-background-size:cover;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+   background-size:cover;
+    video{
+        background: transparent url(https://discovernewmarket.co.uk/wp-content/themes/discover-newmarket/videos/discover-newmarket.jpg) no-repeat 0 0;
+   -webkit-background-size:cover;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+   background-size:cover;
+    }
+}*/
+}
+.page-template-page-groups .table-section {
+  background-color: #fff !important;
+  padding-bottom: 20rem !important;
+}
+.page-template-page-groups .table-section table {
+  margin: auto;
+}
+.page-template-page-groups .table-section table * {
+  font-size: 15px;
+}
+.page-template-page-groups .table-section th {
+  padding: 2rem;
+  font-weight: bold;
+  color: #b6e455;
+}
+.page-template-page-groups .table-section tr {
+  padding: 2rem;
+  border: 1px solid #f0f0f0;
+}
+.page-template-page-groups .table-section td {
+  padding: 2rem;
+  max-width: 375px;
+  vertical-align: middle;
+}
+.page-template-page-groups .table-section td b {
+  font-weight: bold;
+}
+.page-template-page-groups .table-section td .green {
+  color: #b6e455;
+  font-weight: bold;
+}
+.page-template-page-groups table.small {
+  display: none;
+}
+@media (max-width: 600px) {
+  .page-template-page-groups table.large {
+    display: none !important;
+  }
+  .page-template-page-groups table.small {
+    display: block;
+  }
+  .page-template-page-groups .table-section table.small td {
+    max-width: 100% !important;
+  }
+}
+.page-template-page-groups .content-two h2 {
+  font-size: 2.5rem !important;
+}
+.page-template-page-groups .tailor-your-xp {
+  padding-top: 7rem;
+}
+.stamp-right {
+  display: block;
+  position: absolute;
+  z-index: 999;
+  right: 18%;
+  bottom: 10%;
+}
+.stamp-right img {
+  max-width: 181px;
+}
+.page-id-6686 .stamp {
+  display: none !important;
+}
+.competition {
+  padding-bottom: 30rem;
+}
+.competition input[type="text"], .competition input[type="tel"], .competition input[type="email"] {
+  width: 100%;
+  background-color: #fff;
+  padding: 1.5rem;
+  border: none;
+  margin-bottom: 30px;
+}
+.competition input[type="file"] {
+  margin: 0 auto;
+}
+.competition .submit-btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.competition .submit-btn input[type="submit"] {
+  background-color: #b6e455;
+  color: #fff;
+  margin: 0 auto;
+}
+.menu-item-has-children::after {
+  content: "\f078";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  transform: scale(0.6);
+}
+.menu-item {
+  position: relative;
+  padding: 0px 0.8rem;
+}
+.menu-item .sub-menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: -1.5rem;
+  z-index: 999;
+  padding: 1rem 2rem;
+  width: 280px;
+  background-color: white;
+}
+.tick-box {
+  margin-top: 30px;
+  font-size: 14px;
+  text-align: center;
+}
+.mandarin-content {
+  max-width: 1300px;
+  margin: auto;
+  display: block;
+}
+.mandarin-content .contact-us-btn {
+  background-color: #b6e455;
+  color: #18345b;
+  padding: 1rem 3rem;
+  margin-top: 30px;
+}
+.mandarin-content .link-paragraph {
+  margin-bottom: 30px;
+}
+@media (max-width: 991px) {
+  .place-content {
+    margin-top: 70px;
+  }
+}
+section.intro-careers .intro-wrapper .intro-content p {
+  max-width: 100%;
+}
+.carousel-wrap .stamp a {
+  display: none;
+}
+.single-places .carousel-wrap.Tour .stamp a {
+  display: block !important;
+}
+.page-template-page-things-to-do .location a:first-of-type {
+  display: none;
+}
+section.things-to-do .to-do-grid .to-do-box .content-box {
+  min-height: 23rem !important;
+}
+.page-template-page-whats-on-form h1 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.page-template-page-whats-on-form .form-message {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.page-template-page-whats-on-form .form-message .message-success {
+  border: 2px solid #4b9c30;
+}
+.page-template-page-whats-on-form .form-message .message-error {
+  border: 2px solid #9c3030;
+}
+.page-template-page-whats-on-form .whatson-form {
+  width: 600px;
+  margin: 0 auto;
+}
+.page-template-page-whats-on-form .whatson-form .full {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.page-template-page-whats-on-form .whatson-form .half {
+  width: calc(50% - 5px);
+  float: left;
+  margin-bottom: 15px;
+}
+.page-template-page-whats-on-form .whatson-form .half:nth-child(odd) {
+  margin-left: 5px;
+}
+.page-template-page-whats-on-form .whatson-form .half:nth-child(even) {
+  margin-right: 5px;
+}
+.page-template-page-whats-on-form .whatson-form input[type="text"], .page-template-page-whats-on-form .whatson-form input[type="date"], .page-template-page-whats-on-form .whatson-form input[type="email"], .page-template-page-whats-on-form .whatson-form input[type="tel"] {
+  background-color: #fff;
+  padding: 1.5rem;
+  border: none;
+  outline: none;
+}
+.page-template-page-whats-on-form .whatson-form input[type="file"] {
+  margin: 20px auto;
+  width: 200px;
+}
+.page-template-page-whats-on-form .whatson-form textarea {
+  width: 100%;
+  resize: none;
+  background-color: #fff;
+  padding: 1.5rem;
+  border: none;
+  outline: none;
+}
+.page-template-page-whats-on-form .whatson-form button {
+  width: 100%;
+  background-color: #b6e455;
+  padding: 1.5rem;
+  border: none;
+  margin: 0 auto;
+}
+.search-container {
+  padding-bottom: 3rem;
+  padding-left: 10px;
+}
+.search-container form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+@media (max-width: 450px) {
+  .search-container form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+.search-container form label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+@media (max-width: 450px) {
+  .search-container form label {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+.search-container form input {
+  background-color: #fff;
+  padding: 1.5rem;
+  border: none;
+  outline: none;
+}
+@media (max-width: 450px) {
+  .search-container form input {
+    width: 100%;
+  }
+}
+.search-container form button {
+  background-color: #b6e455;
+  padding: 1.5rem;
+  height: 63px;
+  border: none;
+}

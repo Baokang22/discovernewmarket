@@ -1,0 +1,201 @@
+/* -------------------------------------------------- */
+// Custom Sign Up
+/* -------------------------------------------------- */
+
+.sign-up-custom {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(8, 70, 142, 0.95);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition-duration: 2s;
+
+    &.show {
+        opacity: 1;
+        transition-duration: 2s;
+        z-index: 100;
+    }
+
+    .close-form {
+        position: absolute;
+        right: 1.5rem;
+        top: 1.5rem;
+    }
+
+    .sign-up-inner {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+
+        p {
+            &.small {
+                margin-bottom: 1rem;
+                margin-top: 3rem;
+            }
+        }
+
+        .lets-get-signed-up {
+            background: $color-pink;
+            color: white;
+            padding-left: 2.5rem;
+            padding-right: 2.5rem;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            text-align: center;
+            position: relative;
+
+            .triangle {
+                position: absolute;
+                bottom: -30px;
+                left: 15px;
+            }
+
+            h2 {
+                margin: 0;
+            }
+        }
+
+        .form-wrap {
+            max-width: 480px;
+
+            ::-webkit-input-placeholder {
+                color: white;
+            }
+
+            :-moz-placeholder {
+                /* Firefox 18- */
+                color: white;
+            }
+
+            ::-moz-placeholder {
+                /* Firefox 19+ */
+                color: white;
+            }
+
+            :-ms-input-placeholder {
+                color: white;
+            }
+
+            form {
+                width: 480px;
+            }
+
+            input {
+                width: 100%;
+                background: #053a79;
+                border: none;
+                margin-bottom: 1rem;
+                padding-left: 2rem;
+                padding-top: 0.5rem;
+                padding-bottom: 0.5rem;
+                font-size: 2.4rem;
+                color: white;
+            }
+        }
+    }
+}
+
+.sign-up-custom {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(8, 70, 142, 0.95);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition-duration: 2s;
+
+    &.show {
+        opacity: 1;
+        transition-duration: 2s;
+        z-index: 100;
+    }
+
+    .close-form {
+        position: absolute;
+        right: 1.5rem;
+        top: 1.5rem;
+    }
+
+    .sign-up-inner {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+
+        p {
+            &.small {
+                margin-bottom: 1rem;
+                margin-top: 3rem;
+            }
+        }
+
+        .lets-get-signed-up {
+            background: $color-pink;
+            color: white;
+            padding-left: 2.5rem;
+            padding-right: 2.5rem;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            text-align: center;
+            position: relative;
+
+            .triangle {
+                position: absolute;
+                bottom: -30px;
+                left: 15px;
+            }
+
+            h2 {
+                margin: 0;
+            }
+        }
+
+        .form-wrap {
+            max-width: 480px;
+
+            ::-webkit-input-placeholder {
+                color: white;
+            }
+
+            :-moz-placeholder {
+                /* Firefox 18- */
+                color: white;
+            }
+
+            ::-moz-placeholder {
+                /* Firefox 19+ */
+                color: white;
+            }
+
+            :-ms-input-placeholder {
+                color: white;
+            }
+
+            form {
+                width: 480px;
+            }
+
+            input {
+                width: 100%;
+                background: #053a79;
+                border: none;
+                margin-bottom: 1rem;
+                padding-left: 2rem;
+                padding-top: 0.5rem;
+                padding-bottom: 0.5rem;
+                font-size: 2.4rem;
+                color: white;
+            }
+        }
+    }
+}
